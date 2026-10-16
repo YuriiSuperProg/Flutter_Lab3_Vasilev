@@ -13,8 +13,8 @@ void main(List<String> args) {
                 Colors.blue,
                 Colors.red,
               ],
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
+              begin: Alignment.topCenter,
+              end: Alignment.bottomCenter,
             ),
           ),
           child: Center(
