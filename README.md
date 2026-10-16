@@ -1,17 +1,60 @@
-# first_flutter_app
+# Flutter_Lab3 — Знакомство с Flutter
 
-A new Flutter project.
+Учебный проект по лабораторной работе №3. Первое знакомство с фреймворком
+Flutter: создание проекта, изучение структуры, работа с виджетами и деревом
+виджетов. Приложение запускается в браузере Chrome.
 
-## Getting Started
+## Автор
 
-This project is a starting point for a Flutter application.
+- **Имя:** Васильев Юрий
+- **Группа:** ИСП-241
 
-A few resources to get you started if this is your first Flutter project:
+## Стек и версии
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- **Flutter:** 3.x.x
+- **Dart:** 3.x.x
+- **Платформа:** Web (Chrome)
+- **IDE:** VS Code
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Скриншот приложения
+
+![Приложение](/img/step2_Vasilev.png)
+![Приложение](/img/step4_Vasilev.png)
+![Приложение](/img/step9_Vasilev.png)
+
+## Запуск
+
+1. Клонировать репозиторий:
+```bash
+   git clone <URL_вашего_репозитория>
+```
+
+2. Перейти в папку проекта:
+
+```bash
+    cd Flutter_Lab3
+```
+
+3. Выполнить:
+
+```bash
+   flutter pub get
+```
+
+4. Выполнить: flutter run -d chrome
+
+## Что изучили:
+
+* Установку и проверку окружения Flutter (`flutter doctor`, `flutter devices`).
+
+* Структуру Flutter-проекта и назначение основных папок (`lib/`, `web/`, `pubspec.yaml` и др.).
+
+* Базовые концепции: виджеты, дерево виджетов, `StatelessWidget` и `StatefulWidget`.
+
+* Цепочку запуска приложения: `main()` → `runApp()` → `MaterialApp()` → `home:`.
+
+* Работу с виджетами `Scaffold`, `Center`, `Container`, `Text`, `TextStyle`, `BoxDecoration`, `LinearGradient`.
+
+* Инструменты разработчика: Hot Reload (`r`) и Hot Restart (`R`), Flutter DevTools и Flutter Inspector.
+
+
